@@ -11,22 +11,27 @@ const User = db.define("usuarios", {
   nome: {
     type: DataTypes.STRING,
     require: true,
+    allowNull: false,
   },
   sobrenome: {
     type: DataTypes.STRING,
     require: true,
+    allowNull: false,
   },
   email: {
     type: DataTypes.STRING,
     require: true,
+    allowNull: false,
   },
   telefone: {
     type: DataTypes.STRING,
     require: true,
+    allowNull: false,
   },
   cpf: {
     type: DataTypes.STRING,
     require: true,
+    allowNull: false,
   },
 });
 
