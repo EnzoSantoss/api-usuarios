@@ -25,11 +25,11 @@ router.put("/usuarios/:id_usuario", UserController.updateUser);
 
 //Rotas de endereço
 router.get(
-  "/enderecos-usuario/:id_usuario",
+  "/enderecos-usuario/:id_endereco_usuario",
   UserControllerAddress.getUserAddress
 );
 router.get(
-  "/enderecos-usuario/:id_endereco_usuario",
+  "/enderecos-usuario/:id_usuario",
   UserControllerAddress.getUserAddress
 );
 router.post("/enderecos-usuario", UserControllerAddress.saveUserAddress);

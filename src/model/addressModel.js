@@ -11,26 +11,32 @@ const Address = db.define("enderecos_usuario", {
   id_usuario: {
     type: DataTypes.INTEGER,
     require: true,
+    allowNull: false,
   },
   logradouro: {
     type: DataTypes.STRING,
     require: true,
+    allowNull: false,
   },
   numero: {
     type: DataTypes.STRING,
     require: true,
+    allowNull: false,
   },
   cidade: {
     type: DataTypes.STRING,
     require: true,
+    allowNull: false,
   },
   cep: {
     type: DataTypes.STRING,
     require: true,
+    allowNull: false,
   },
   bairro: {
     type: DataTypes.STRING,
     require: true,
+    allowNull: false,
   },
   complemento: {
     type: DataTypes.STRING,
